@@ -2,7 +2,7 @@
 # Quick Links
 1. [Model Architecture](#Model-Architecture)
 2. [Preparation](#prepration)
-   1. [Enviorment setup](#env-setup)
+   1. [Environment Setup](#env-setup)
    2. [Dataset description](#dataset)
 3. [Quick Start](#start)
    1. [Model Training](#model-tra)
@@ -16,3 +16,10 @@
 
 ## Model Architecture 
 ![alt text](https://github.com/MLlab4CS/DeepGLSTM/blob/main/images/architecture.jpg "DeepGLSTM")
+
+## Preparation
+### Environment Setup
+The dependency pakages can be installed using the command
+```python
+pip install -r requirements.txt
+```
