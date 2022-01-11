@@ -57,3 +57,8 @@ Default values of argument parser are set for davis dataset.
 | Dataset   | Model download link |
 | --------- | :------------------:|
 | Davis     | [Link](https://drive.google.com/file/d/1-lzd2Hq5bidsdJI8gGvfIducHDwL_PLd/view?usp=sharing) |
+| Kiba      | [Link](https://drive.google.com/file/d/1buwSFWxmyBOLSdJ9BiMOa8E-GvMGJnar/view?usp=sharing) |
+| DTC       | [Link](https://drive.google.com/file/d/1Pam_irCkpKsvNGIdJM8rC9r79u6o5Q7t/view?usp=sharing) |
+| Metz      | [Link](https://drive.google.com/file/d/1X4qhc-9zmwiGPB_83NFgTiA-cOUStQeJ/view?usp=sharing) |
+| ToxCast   | [Link](https://drive.google.com/file/d/1r4y-a7rhfcYjvWLBwRqW5ckfeewHNH_9/view?usp=sharing) |
+| Stitch    | [Link](https://drive.google.com/file/d/1JwIhSrSRUR1CEEZc6kIlNiphPHa47_x9/view?usp=sharing) |
