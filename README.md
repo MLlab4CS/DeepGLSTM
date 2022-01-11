@@ -77,6 +77,10 @@ Download models from the above table for particular dataset and store in the pre
 
 Download dataset from the above table for particular data and store in the data folder. For each folder in the link there are two csv file train and test.
 
-## Statistics <a name="#stats"></a>
+## Statistics <a name="stats"></a>
 
-![alt text](https://github.com/MLlab4CS/DeepGLSTM/blob/main/images/Full_fig%20(1).pdf "Full_fig")
+![alt text](https://github.com/MLlab4CS/DeepGLSTM/blob/main/images/Full_fig%20.jpg "Full_fig")
+![alt text](https://github.com/MLlab4CS/DeepGLSTM/blob/main/images/Sup_table.jpeg "Sup_1")
+![alt text](https://github.com/MLlab4CS/DeepGLSTM/blob/main/images/sup_table2.jpeg "Sup_2")
+
+## Citation  <a name="cite"></a>
