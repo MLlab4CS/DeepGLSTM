@@ -68,11 +68,15 @@ Download models from the above table for particular dataset and store in the pre
 ### Dataset download links <a name="P-down"></a>
 | Dataset   | Dataset download links |
 | --------- | :------------------:|
-| Davis     |[Links](https://drive.google.com/drive/folders/17ZmLlkUBqz8f3nVJQebLDDo90JYrelA2?usp=sharing)|
-| Kiba      |[Links](https://drive.google.com/drive/folders/1vqRSVzwF97UISUZDlF2oeg0K3Rw7jVkS?usp=sharing)|
-| DTC       |[Links](https://drive.google.com/drive/folders/1or9YSjw-LXIUy4ch8ZtAmf7Wl5IEDMjn?usp=sharing)|
-| Metz      |[Links](https://drive.google.com/drive/folders/1LZI1GJzsXvLiOKlJVzsawrITQ9fuQl27?usp=sharing)|
-| ToxCast   |[Links](https://drive.google.com/drive/folders/1L9i8h5jMaIuzF1rXBaJFXMqlWVXvSoDo?usp=sharing)|
-| Stitch    |[Links](https://drive.google.com/drive/folders/1tC8gHn-sIINuEiGbgY8zSMYIJydgmkzE?usp=sharing)|
+| Davis     |[Link](https://drive.google.com/drive/folders/17ZmLlkUBqz8f3nVJQebLDDo90JYrelA2?usp=sharing)|
+| Kiba      |[Link](https://drive.google.com/drive/folders/1vqRSVzwF97UISUZDlF2oeg0K3Rw7jVkS?usp=sharing)|
+| DTC       |[Link](https://drive.google.com/drive/folders/1or9YSjw-LXIUy4ch8ZtAmf7Wl5IEDMjn?usp=sharing)|
+| Metz      |[Link](https://drive.google.com/drive/folders/1LZI1GJzsXvLiOKlJVzsawrITQ9fuQl27?usp=sharing)|
+| ToxCast   |[Link](https://drive.google.com/drive/folders/1L9i8h5jMaIuzF1rXBaJFXMqlWVXvSoDo?usp=sharing)|
+| Stitch    |[Link](https://drive.google.com/drive/folders/1tC8gHn-sIINuEiGbgY8zSMYIJydgmkzE?usp=sharing)|
 
 Download dataset from the above table for particular data and store in the data folder. For each folder in the link there are two csv file train and test.
+
+## Statistics <a name="#stats"></a>
+
+![alt text](https://github.com/MLlab4CS/DeepGLSTM/blob/main/images/Full_fig%20(1).pdf "Full_fig")
