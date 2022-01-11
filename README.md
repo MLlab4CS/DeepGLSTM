@@ -5,8 +5,9 @@
    1. [Environment Setup](#env-setup)
    2. [Dataset description](#dataset)
 3. [Quick Start](#start)
-   1. [Model Training](#model-tra)
-   2. [Inference on Pretrained Model](#Inf-pre)
+   1. [Create Dataset](#create-dataset)
+   2. [Model Training](#model-tra)
+   3. [Inference on Pretrained Model](#Inf-pre)
 4. [Pretrained Models and Dataset](#premod-data)
    1. [Pretrained Models download links](#P-down)
    2. [Dataset download links](#data-down)
@@ -15,6 +16,7 @@
 
 
 ## Model Architecture <a name="Model-Architecture"></a>
+DeepGLSTM:
 ![alt text](https://github.com/MLlab4CS/DeepGLSTM/blob/main/images/architecture.jpg "DeepGLSTM")
 
 ## Preparation <a name="prepration"></a>
@@ -24,5 +26,16 @@ The dependency pakages can be installed using the command
 pip install -r requirements.txt
 ```
 ### Dataset description <a name="dataset"></a>
-In our experiment we use Davis, Kiba, DTC, Metz, ToxCast, Stitch datasets respectively. The statistics of the datasets are shown below 
+In our experiment we use Davis, Kiba, DTC, Metz, ToxCast, Stitch datasets respectively.
+
+Dataset Statistics:
+
 ![alt text](https://github.com/MLlab4CS/DeepGLSTM/blob/main/images/dataset_statistics.png "Dataset statistics")
+
+## Quick Start <a name="model-tra"></a>
+### Create Dataset <a name="create-dataset"></a>
+Firstly, run the comment below to create Pytorch_Geometric file. The file will be created in processed directory in data directory.
+```python
+python3 data_creation.py 
+```
+Default values of argument parser are set for davis dataset.
