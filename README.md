@@ -64,3 +64,13 @@ Default values of argument parser are set for davis dataset.
 | Stitch    | [Link](https://drive.google.com/file/d/1JwIhSrSRUR1CEEZc6kIlNiphPHa47_x9/view?usp=sharing) |
 
 Download models from the above table for particular dataset and store in the pretrained_model folder.
+
+### Dataset download links <a name="P-down"></a>
+| Dataset   | Dataset download links |
+| --------- | :------------------:|
+| Davis     |  Davis dataset present in  |
+| Kiba      |  |
+| DTC       |  |
+| Metz      |  |
+| ToxCast   |  |
+| Stitch    |  |
