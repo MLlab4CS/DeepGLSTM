@@ -34,8 +34,21 @@ Dataset Statistics:
 
 ## Quick Start <a name="model-tra"></a>
 ### Create Dataset <a name="create-dataset"></a>
-Firstly, run the comment below to create Pytorch_Geometric file. The file will be created in processed directory in data directory.
+Firstly, run the script below to create Pytorch_Geometric file. The file will be created in processed directory in data directory.
 ```python
 python3 data_creation.py 
 ```
 Default values of argument parser are set for davis dataset.
+### Model Training  <a name="model-tra"></a>
+Run the following script to train the model.
+```python
+python3 training.py 
+```
+Default values of argument parser are set for davis dataset.
+### Inference on Pretrained Model  <a name="Inf-pre"></a>
+Run the following script to train the model.
+```python
+python3 inference.py 
+```
+Default values of argument parser are set for davis dataset.
+
