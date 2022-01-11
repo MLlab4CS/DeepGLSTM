@@ -14,11 +14,11 @@
 6. [Citation](#cite)
 
 
-## Model Architecture 
+## Model Architecture <a name="Model-Architecture"></a>
 ![alt text](https://github.com/MLlab4CS/DeepGLSTM/blob/main/images/architecture.jpg "DeepGLSTM")
 
-## Preparation
-### Environment Setup
+## Preparation <a name="prepration"></a>
+### Environment Setup <a name="env-setup"></a>
 The dependency pakages can be installed using the command
 ```python
 pip install -r requirements.txt
