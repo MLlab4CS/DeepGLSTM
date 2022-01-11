@@ -15,3 +15,4 @@
 
 
 ## Model Architecture 
+![alt text](https://github.com/MLlab4CS/DeepGLSTM/blob/main/images/architecture.jpg "DeepGLSTM")
