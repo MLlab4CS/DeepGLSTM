@@ -9,6 +9,9 @@
    2. [Inference on Pretrained Model](#Inf-pre)
 4. [Pretrained Models and Dataset](#premod-data)
    1. [Pretrained Models download links](#P-down)
+   2. [Dataset download links](#data-down)
+5. [Statistics](#stats)
+6. [Citation](#cite)
 
 
 ## Model Architecture 
