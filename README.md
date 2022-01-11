@@ -54,6 +54,6 @@ Default values of argument parser are set for davis dataset.
 
 ## Pretrained Models and Dataset <a name="premod-data"></a>
 ### Pretrained Models download links <a name="P-down"></a>
-| Dataset   | Model download link | Dataset download link |
-| --------- | :------------------:| --------------------: |
-| Davis     | 
+| Dataset   | Model download link |
+| --------- | :------------------:|
+| Davis     | [Link](https://drive.google.com/file/d/1-lzd2Hq5bidsdJI8gGvfIducHDwL_PLd/view?usp=sharing) |
