@@ -34,7 +34,7 @@ Dataset Statistics:
 
 ## Quick Start <a name="model-tra"></a>
 ### Create Dataset <a name="create-dataset"></a>
-Firstly, run the script below to create Pytorch_Geometric file. The file will be created in processed directory in data directory.
+Firstly, run the script below to create Pytorch_Geometric file. The file will be created in processed folder in data folder.
 ```python
 python3 data_creation.py 
 ```
@@ -62,3 +62,5 @@ Default values of argument parser are set for davis dataset.
 | Metz      | [Link](https://drive.google.com/file/d/1X4qhc-9zmwiGPB_83NFgTiA-cOUStQeJ/view?usp=sharing) |
 | ToxCast   | [Link](https://drive.google.com/file/d/1r4y-a7rhfcYjvWLBwRqW5ckfeewHNH_9/view?usp=sharing) |
 | Stitch    | [Link](https://drive.google.com/file/d/1JwIhSrSRUR1CEEZc6kIlNiphPHa47_x9/view?usp=sharing) |
+
+Download models from the above table for particular dataset and store in the pretrained_model folder.
