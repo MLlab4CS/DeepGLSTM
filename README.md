@@ -1,19 +1,23 @@
 # DeepGLSTM: Deep Graph Convolutional Network and LSTM based approach for predicting drug-target binding affinity
 # Quick Links
-1. [Model Architecture](#Model-Architecture)
-2. [Preparation](#prepration)
+1. [Abstract](#task)
+2. [Model Architecture](#Model-Architecture)
+3. [Preparation](#prepration)
    1. [Environment Setup](#env-setup)
    2. [Dataset description](#dataset)
-3. [Quick Start](#start)
+4. [Quick Start](#start)
    1. [Create Dataset](#create-dataset)
    2. [Model Training](#model-tra)
    3. [Inference on Pretrained Model](#Inf-pre)
-4. [Pretrained Models and Dataset](#premod-data)
+5. [Pretrained Models and Dataset](#premod-data)
    1. [Pretrained Models download links](#P-down)
    2. [Dataset download links](#data-down)
-5. [Model Performance Stats](#stats)
-6. [Case studies on SARS-CoV-2 viral proteins](#case)
-7. [Citation](#cite)
+6. [Model Performance Stats](#stats)
+7. [Case studies on SARS-CoV-2 viral proteins](#case)
+8. [Citation](#cite)
+
+## Abstract <a name="task"></a>
+Development of new drugs is an expensive  and time-consuming process. Due to the world-wide SARS-CoV-2 outbreak, it is essential that new drugs for SARS-CoV-2 are developed as soon as possible. Drug repurposing techniques can reduce the time span needed to develop new drugs by probing the list of existing FDA-approved drugs and their properties to reuse them for combating the new disease. We propose a novel architecture DeepGLSTM, which is a Graph Convolutional network and LSTM based method that predicts binding affinity values  between the FDA-approved drugs and the viral proteins of SARS-CoV-2. Our proposed model has been trained on Davis, KIBA (Kinase Inhibitor Bioactivity), DTC (Drug Target Commons), Metz, ToxCast and STITCH datasets. We use our novel architecture to predict a Combined Score (calculated using Davis and KIBA score) of 2,304 FDA-approved drugs against 5 viral proteins. On the basis of the Combined Score, we prepare a list of the top-18 drugs with the highest binding affinity for 5 viral proteins present in SARS-CoV-2. Subsequently, this list may be used for the creation of new useful drugs. For more details please visit our work 
 
 
 ## Model Architecture <a name="Model-Architecture"></a>
