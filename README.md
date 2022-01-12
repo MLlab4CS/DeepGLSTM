@@ -21,7 +21,7 @@ DeepGLSTM:
 
 ## Preparation <a name="prepration"></a>
 ### Environment Setup <a name="env-setup"></a>
-The dependency pakages can be installed using the command
+The dependency pakages can be installed using the command.
 ```python
 pip install -r requirements.txt
 ```
