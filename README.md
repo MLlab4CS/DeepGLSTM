@@ -81,7 +81,7 @@ Download dataset from the above table for particular data and store in the data 
 
 ![alt text](https://github.com/MLlab4CS/DeepGLSTM/blob/main/images/Full_fig%20.jpg "Full_fig")
 
-Plots showing \textbf{DeepGLSTM} versus measured binding affinity values for the (a)  Davis dataset ($pK_{d}$) (b) KIBA dataset (KIBA score) (c) DTC dataset ($pK_{i}$) (d) Metz dataset ($pK_{i}$) (e) ToxCast dataset ($AC_{50}$) (f) STITCH dataset (SCORES). In figure Coef\_V is Pearson correlation coefficient.
+Plots showing DeepGLSTM versus measured binding affinity values for the (a)  Davis dataset (b) KIBA dataset (c) DTC dataset (d) Metz dataset (e) ToxCast dataset (f) STITCH dataset (SCORES). In figure Coef_V is Pearson correlation coefficient.
 
 ![alt text](https://github.com/MLlab4CS/DeepGLSTM/blob/main/images/Sup_table.jpeg "Sup_1")
 ![alt text](https://github.com/MLlab4CS/DeepGLSTM/blob/main/images/sup_table2.jpeg "Sup_2")
