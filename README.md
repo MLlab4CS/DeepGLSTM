@@ -11,8 +11,9 @@
 4. [Pretrained Models and Dataset](#premod-data)
    1. [Pretrained Models download links](#P-down)
    2. [Dataset download links](#data-down)
-5. [Statistics](#stats)
-6. [Citation](#cite)
+5. [Model Performance Stats](#stats)
+6. [Case studies on SARS-CoV-2 viral proteins](#case)
+7. [Citation](#cite)
 
 
 ## Model Architecture <a name="Model-Architecture"></a>
@@ -77,12 +78,13 @@ Download models from the above table for particular dataset and store in the pre
 
 Download dataset from the above table for particular data and store in the data folder. For each folder in the link there are two csv file train and test.
 
-## Statistics <a name="stats"></a>
+## Model Performance Stats <a name="stats"></a>
 
 ![alt text](https://github.com/MLlab4CS/DeepGLSTM/blob/main/images/Full_fig%20.jpg "Full_fig")
 
 Plots showing DeepGLSTM versus measured binding affinity values for the (a)  Davis dataset (b) KIBA dataset (c) DTC dataset (d) Metz dataset (e) ToxCast dataset (f) STITCH dataset. In figure Coef_V is Pearson correlation coefficient.
 
+## Case studies on SARS-CoV-2 viral proteins <a name="case"></a>
 ![alt text](https://github.com/MLlab4CS/DeepGLSTM/blob/main/images/Sup_table.jpeg "Sup_1")
 ![alt text](https://github.com/MLlab4CS/DeepGLSTM/blob/main/images/sup_table2.jpeg "Sup_2")
 
