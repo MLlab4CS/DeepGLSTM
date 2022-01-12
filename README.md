@@ -17,7 +17,6 @@
 
 
 ## Model Architecture <a name="Model-Architecture"></a>
-DeepGLSTM:
 ![alt text](https://github.com/MLlab4CS/DeepGLSTM/blob/main/images/architecture.jpg "DeepGLSTM")
 
 ## Preparation <a name="prepration"></a>
