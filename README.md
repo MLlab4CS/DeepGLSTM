@@ -17,7 +17,7 @@
 8. [Citation](#cite)
 
 ## Abstract <a name="task"></a>
-Development of new drugs is an expensive  and time-consuming process. Due to the world-wide SARS-CoV-2 outbreak, it is essential that new drugs for SARS-CoV-2 are developed as soon as possible. Drug repurposing techniques can reduce the time span needed to develop new drugs by probing the list of existing FDA-approved drugs and their properties to reuse them for combating the new disease. We propose a novel architecture DeepGLSTM, which is a Graph Convolutional network and LSTM based method that predicts binding affinity values  between the FDA-approved drugs and the viral proteins of SARS-CoV-2. Our proposed model has been trained on Davis, KIBA (Kinase Inhibitor Bioactivity), DTC (Drug Target Commons), Metz, ToxCast and STITCH datasets. We use our novel architecture to predict a Combined Score (calculated using Davis and KIBA score) of 2,304 FDA-approved drugs against 5 viral proteins. On the basis of the Combined Score, we prepare a list of the top-18 drugs with the highest binding affinity for 5 viral proteins present in SARS-CoV-2. Subsequently, this list may be used for the creation of new useful drugs. For more details please visit our [work](https://drive.google.com/file/d/1I-VV--uLicETB0yvZKjtcF98kcC9_wDo/view?usp=sharing).
+Development of new drugs is an expensive  and time-consuming process. Due to the world-wide SARS-CoV-2 outbreak, it is essential that new drugs for SARS-CoV-2 are developed as soon as possible. Drug repurposing techniques can reduce the time span needed to develop new drugs by probing the list of existing FDA-approved drugs and their properties to reuse them for combating the new disease. We propose a novel architecture DeepGLSTM, which is a Graph Convolutional network and LSTM based method that predicts binding affinity values  between the FDA-approved drugs and the viral proteins of SARS-CoV-2. Our proposed model has been trained on Davis, KIBA (Kinase Inhibitor Bioactivity), DTC (Drug Target Commons), Metz, ToxCast and STITCH datasets. We use our novel architecture to predict a Combined Score (calculated using Davis and KIBA score) of 2,304 FDA-approved drugs against 5 viral proteins. On the basis of the Combined Score, we prepare a list of the top-18 drugs with the highest binding affinity for 5 viral proteins present in SARS-CoV-2. Subsequently, this list may be used for the creation of new useful drugs. For more details please visit our [work](https://arxiv.org/abs/2201.06872v1).
 
 
 ## Model Architecture <a name="Model-Architecture"></a>
@@ -92,3 +92,15 @@ Plots showing DeepGLSTM versus measured binding affinity values for the (a)  Dav
 ![alt text](https://github.com/MLlab4CS/DeepGLSTM/blob/main/images/sup_table2.jpeg "Sup_2")
 
 ## Citation  <a name="cite"></a>
+Please cite our paper if it's helpful to you in your research.
+
+```bibtext 
+@misc{mukherjee2022deep,
+      title={Deep Graph Convolutional Network and LSTM based approach for predicting drug-target binding affinity}, 
+      author={Shrimon Mukherjee and Madhusudan Ghosh and Partha Basuchowdhuri},
+      year={2022},
+      eprint={2201.06872},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
