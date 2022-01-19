@@ -50,7 +50,7 @@ python3 training.py
 ```
 Default values of argument parser are set for davis dataset.
 ### Inference on Pretrained Model  <a name="Inf-pre"></a>
-Run the following script to train the model.
+Run the following script to test the model.
 ```python
 python3 inference.py 
 ```
