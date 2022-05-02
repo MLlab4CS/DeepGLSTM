@@ -95,12 +95,15 @@ Plots showing DeepGLSTM versus measured binding affinity values for the (a)  Dav
 Please cite our paper if it's helpful to you in your research.
 
 ```bibtext 
-@misc{mukherjee2022deep,
-      title={Deep Graph Convolutional Network and LSTM based approach for predicting drug-target binding affinity}, 
-      author={Shrimon Mukherjee and Madhusudan Ghosh and Partha Basuchowdhuri},
-      year={2022},
-      eprint={2201.06872},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@inbook{doi:10.1137/1.9781611977172.82,
+author = {Shrimon Mukherjee and Madhusudan Ghosh and Partha Basuchowdhuri},
+title = {DeepGLSTM: Deep Graph Convolutional Network and LSTM based approach for predicting drug-target binding affinity},
+booktitle = {Proceedings of the 2022 SIAM International Conference on Data Mining (SDM)},
+chapter = {},
+pages = {729-737},
+doi = {10.1137/1.9781611977172.82},
+URL = {https://epubs.siam.org/doi/abs/10.1137/1.9781611977172.82},
+eprint = {https://epubs.siam.org/doi/pdf/10.1137/1.9781611977172.82},
+    abstract = { Abstract Development of new drugs is an expensive and time-consuming process. Due to the world-wide SARS-CoV-2 outbreak, it is essential that new drugs for SARS-CoV-2 are developed as soon as possible. Drug repurposing techniques can reduce the time span needed to develop new drugs by probing the list of existing FDA-approved drugs and their properties to reuse them for combating the new disease. We propose a novel architecture DeepGLSTM, which is a Graph Convolutional network and LSTM based method that predicts binding affinity values between the FDA-approved drugs and the viral proteins of SARS-CoV-2. Our proposed model has been trained on Davis, KIBA (Kinase Inhibitor Bioactivity), DTC (Drug Target Commons), Metz, ToxCast and STITCH datasets. We use our novel architecture to predict a Combined Score (calculated using Davis and KIBA score) of 2,304 FDA-approved drugs against 5 viral proteins. On the basis of the Combined Score, we prepare a list of the top-18 drugs with the highest binding affinity for 5 viral proteins present in SARS-CoV-2. Subsequently, this list may be used for the creation of new useful drugs. }
 }
 ```
